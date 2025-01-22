@@ -1,53 +1,26 @@
-# Aluraflix
+Aluraflix é um projeto que criei como parte do programa Oracle Next Education (ONE). É uma aplicação simples para gerenciar e visualizar vídeos organizados por categorias.
 
-Aluraflix é uma aplicação de catálogo de vídeos inspirada, projetada para gerenciar e visualizar vídeos organizados por categorias. Este projeto faz parte dos desafios do programa Oracle Next Education (ONE).
+FuncionalidadesAdicionar, editar, listar e excluir vídeos (CRUD). Organização por categorias. Uso de uma API REST simulada (MockAPI).
 
----
+Tecnologias
+React
+Styled-components
+Axios
+React Icons
+Como rodar o projeto
+Clone o repositório bash:
 
-## **Recursos**
-- Listagem de vídeos por categorias.
-- CRUD completo: Criar, Ler, Atualizar e Excluir vídeos.
-- Uso de uma API REST para armazenamento de vídeos.
-- Design responsivo e estilização com `styled-components`.
-- Contexto global para gerenciamento do estado dos vídeos.
+git clone https://github.com/seu-usuario/aluraflix.git  
+cd aluraflix  
 
----
+Instale as dependências:
+bash
 
-## **Tecnologias Utilizadas**
-- **React**: Biblioteca para construir interfaces de usuário.
-- **Axios**: Gerenciamento de solicitações HTTP.
-- **React Icons**: Ícones para botões de edição e exclusão.
-- **Styled-components**: Estilização de componentes.
-- **MockAPI**: Simulação de uma API REST.
-- **React Router**: Navegação na aplicação (se aplicável).
-
----
-
-## **Instalação**
-Siga estas etapas para instalar e executar o projeto localmente:
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/aluraflix.git
-   cd aluraflix
-   ```
-
-2. Instale as dependências:
-   ```bash
-   npm install
-   ```
-
-3. Execute a aplicação:
-   ```bash
-   npm start
-   ```
-
----
-
-## **Uso**
-1. Adicione um vídeo fornecendo o título, link e categoria.
-2. Edite os vídeos diretamente pela interface usando o ícone de edição.
-3. Exclua vídeos usando o ícone de lixeira com confirmação de segurança.
-
-
-
+Editar
+npm install  
+Execute o projeto:
+bash
+Copiar
+Editar
+npm start  
+Sinta-se à vontade para explorar e testar! 😊
